@@ -56,7 +56,7 @@ const FormC = () => {
     setFormState({ ...formState, diets: selected.filter(diet => diet !== dietToRemove) })
   }
 
-  'Diets'
+
   //! validation start
   //* title should be in range 15 to 80 - only letters
   const validateTitle = (formState) => {
