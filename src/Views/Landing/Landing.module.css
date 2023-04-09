@@ -1,0 +1,48 @@
+.landing {
+  background: url('../../assets/bg/landing-bg.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  filter: blur(5px);
+  background-position: 50% 40%;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.mainTitle {
+  font-weight: 700;
+  font-size: 4rem;
+  font-family: 'Fredericka the Great', cursive;
+  color: #0f4d41;
+  text-shadow: 5px 5px 10px rgb(241, 240, 220);
+
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.landingBtn {
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid rgb(40, 218, 40);
+  cursor: pointer;
+  font-family: 'Fredericka the Great', cursive;
+  border-radius: 50%;
+  background-color: transparent;
+  color: bisque;
+  font-size: 1.6rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.landing:hover {
+  filter: blur(0);
+}
+
+.landingBtn:hover {
+  background-color: #0f4d41;
+
+}

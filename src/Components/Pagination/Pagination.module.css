@@ -1,0 +1,46 @@
+.paginate {
+  background-color: antiquewhite;
+  width: 70vw;
+  margin-top: 2em;
+  margin-left: 15%;
+  padding-bottom: 0.5rem;
+  border: 2px solid greenyellow;
+  border-radius: 25px;
+  height: 4rem;
+
+}
+
+.pageList {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+
+.listItem {
+  width: 2.3rem;
+  border: 2px solid #0f4d41;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.7rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.numLink {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: #0f4d41;
+  transition: all 0.5s ease-in-out;
+}
+
+.listItem:hover {
+
+  background-color: #0f4d41;
+  cursor: pointer;
+}
+
+.listItem:hover .numLink {
+  color: bisque;
+}

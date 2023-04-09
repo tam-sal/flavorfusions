@@ -1,0 +1,124 @@
+.formPageContainer {
+  background-color: #0f4d41;
+  margin-top: 5rem;
+  height: stretch;
+  font-family: 'Quicksand', sans-serif;
+  color: bisque;
+}
+
+.formTitle {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.formContainer {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 30%;
+
+}
+
+.formContainer input,
+.formContainer select {
+  width: 40rem;
+  height: 2rem;
+  text-align: center;
+  border-color: bisque;
+  background-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 15px 0 15px 0;
+  color: bisque;
+  font-size: 1.5rem;
+}
+
+.formContainer select {
+  background-color: #0f4d41;
+}
+
+.formContainer select:disabled {
+  text-decoration: line-through;
+  color: tomato
+}
+
+
+
+.formContainer textarea {
+  width: 40rem;
+  height: 15rem;
+  border-radius: 15px 0 15px 0;
+  resize: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #0f4d41;
+}
+
+.formContainer input::placeholder,
+.formContainer textarea::placeholder {
+  color: rgb(141, 134, 124);
+  font-size: 1.5rem;
+  background-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.selectedDiets {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  width: 40rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.singleDiet {
+  border: 1px solid tomato;
+  border-radius: 15px;
+  padding: 0.2em;
+  width: inherit;
+}
+
+.singleDiet:hover {
+  background-color: tomato;
+  color: #0f4d41;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.submitBtn {
+  background-color: transparent;
+  font-size: 2rem;
+  border-radius: 25px;
+  width: 20rem;
+  height: 5rem;
+  color: bisque;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid bisque;
+  cursor: pointer;
+}
+
+.sendIcon {
+  height: 3rem;
+}
+
+
+
+.submitBtn:disabled .sendIcon {
+  opacity: 20%;
+}
+
+.submitBtn:disabled {
+  border: 1px solid rgba(255, 228, 196, 0.503);
+  color: rgba(255, 228, 196, 0.503);
+  cursor: not-allowed;
+}
+
+
+.inputErr {
+  font-size: 1.5rem;
+  color: tomato;
+}

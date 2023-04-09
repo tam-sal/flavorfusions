@@ -1,0 +1,14 @@
+.bgErr {
+  width: stretch;
+  height: 99.99vh;
+
+}
+
+.errMsg {
+  position: absolute;
+  top: 25rem;
+  left: 35%;
+  text-align: center;
+  color: tomato;
+  font-family: 'Quicksand', sans-serif;
+}

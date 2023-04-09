@@ -1,0 +1,72 @@
+.cardsContainer {
+  margin-top: 2rem;
+  background-color: #0f4d41;
+  padding-bottom: 3rem;
+  height: stretch;
+}
+
+
+.filtersContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem;
+  padding-top: 0.5rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+
+}
+
+.filtersContainer select,
+.filtersContainer option,
+.filtersContainer button {
+  background-color: #0f4d41;
+  width: 12rem;
+  height: 3rem;
+  text-align: center;
+  border: 1.5px solid bisque;
+  border-radius: 15px;
+  color: bisque;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.3rem;
+}
+
+.SingleCard {
+  width: 26rem;
+  height: 38rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-basis: 26%;
+  margin: 1rem -0.5rem;
+  padding: 1rem -1rem;
+
+}
+
+.SingleCard a {
+  text-decoration: none;
+}
+
+.cardsInFlex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.filterIcon {
+  width: 64px;
+  position: absolute;
+  top: 5rem;
+  left: 9rem;
+  opacity: 80%;
+}
+
+.reloadIcon {
+  width: 50px;
+  position: absolute;
+  right: 27rem;
+  opacity: 80%;
+}

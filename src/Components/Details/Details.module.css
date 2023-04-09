@@ -1,0 +1,41 @@
+.recipeDetails {
+  font-family: 'Quicksand', sans-serif;
+  color: bisque;
+  margin-top: 6rem;
+  border: 5px solid tomato;
+  border-radius: 50px 0 50px 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85vw;
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.danHTML a {
+  text-decoration: none;
+  color: bisque;
+  cursor: text;
+  text-align: center;
+}
+
+.recImage {
+  width: 35em;
+  border-radius: 15px;
+  margin: 2rem;
+}
+
+.recId,
+.dietName,
+.health,
+.steps {
+  color: salmon;
+}
+
+.health {
+  text-align: center;
+}
