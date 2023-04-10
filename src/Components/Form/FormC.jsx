@@ -132,9 +132,7 @@ const FormC = () => {
       [name]: value
     })
   }
-  console.log(selected)
-  console.log(formState.diets)
-  console.log(formState)
+
 
   const validForm = (formState.diets.length > 0) && errors.isValid && Object.values(formState).every(Boolean)
 
