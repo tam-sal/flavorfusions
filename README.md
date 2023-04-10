@@ -19,6 +19,39 @@ If you're looking to explore new and exciting flavors, FlavorFusion is the perfe
 
 To check out the live version of FlavorFusion, visit [https://flavorfusion.onrender.com](https://flavorfusion.onrender.com). We hope you enjoy using this application as much as we enjoyed creating it!
 
+## Table of Contents
+
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [License](#license)
+
+## Technologies Used
+
+This project was built using the following technologies:
+
+- [JavaScript ES6](https://www.ecma-international.org/ecma-262/6.0/)
+- [React](https://reactjs.org/) (v18.0.0)
+- [Redux](https://redux.js.org/) (v4.0.5)
+- [Readux-Thunk](https://github.com/reduxjs/redux-thunk)
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start) (v5.3.0)
+- [Node.js](https://nodejs.org/) (v16.13.0)
+- [Express](https://expressjs.com/) (v4.17.1)
+- [PostgreSQL](https://www.postgresql.org/) (v13.5)
+- [Sequelize](https://sequelize.org/) (v6.6.5)
+
+## Features
+
+- Browse through hundreds of recipes
+- Filter recipes by title alphabetically, in ascending or descending order
+- Filter recipes by maximum and minimum health score for each recipe
+- Search for a specific recipe by name
+- View extended details about each recipe, details include a summary of each and steps to prepare it
+- Create your own custom recipe using the 'Creae' section
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
 
 
 ![fflanding](https://user-images.githubusercontent.com/95254477/230817827-de315f03-b0c9-4391-aba1-179a75987e4c.PNG)
