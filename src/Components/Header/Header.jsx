@@ -2,15 +2,18 @@ import logo from '../../assets/logo/logo.PNG'
 import styles from './Header.module.css'
 import { useHistory } from 'react-router-dom'
 import { NavBar, Search } from '../'
+import { getRecipes } from '../../Redux/actions/creators'
+import { useDispatch } from 'react-redux'
 
 
 const Header = () => {
 
   const history = useHistory()
+  const dispatch = useDispatch()
 
   const homeRedirect = () => {
     history.push('/flavorfusion')
-    // window.location.reload()
+    dispatch(getRecipes())
     window.scroll({
       top: 0,
       left: 0,
