@@ -63,7 +63,7 @@ const Cards = () => {
   }
 
   const reloadHandler = () => {
-    window.location.reload()
+    dispatch(getRecipes())
     setCurrentPage(1)
   }
 
