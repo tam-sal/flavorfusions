@@ -38,7 +38,7 @@ This project was built using the following technologies:
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start) (v5.3.0)
 - [Node.js](https://nodejs.org/) (v16.13.0)
 - [Express](https://expressjs.com/) (v4.17.1)
-- [PostgreSQL](https://www.postgresql.org/) (v13.5)
+- [PostgreSQL](https://www.postgresql.org/) (v15.5)
 - [Sequelize](https://sequelize.org/) (v6.6.5)
 
 ## Features
