@@ -10,6 +10,8 @@
 [![REDUX-THUNK](https://img.shields.io/badge/Redux-Thunk-red)](https://github.com/reduxjs/redux-thunk)
 [![NODE 16.13](https://img.shields.io/badge/Node-16.13-darkgreen)](https://nodejs.org/en/about/releases/)
 [![EXPRESS 4.17](https://img.shields.io/badge/Express-4.17-gray)](https://expressjs.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v15-blue)](https://www.postgresql.org/)
+[![Sequelize](https://img.shields.io/badge/Sequelize-v6.5.1-blue)](https://sequelize.org/)
 
 # FlavorFusion
 
