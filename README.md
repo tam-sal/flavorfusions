@@ -11,7 +11,14 @@
 [![NODE 16.13](https://img.shields.io/badge/Node-16.13-darkgreen)](https://nodejs.org/en/about/releases/)
 [![EXPRESS 4.17](https://img.shields.io/badge/Express-4.17-gray)](https://expressjs.com/)
 
-# flavorfusion
+# FlavorFusion
+
+Welcome to the FlavorFusion repository, a full-stack application designed using the Model-View-Controller (MVC) pattern and the Backend for Frontend (BFF) architecture. This application fetches data from Spoonacular API and also collects and stores data to a database using a pure JavaScript-controlled form. The application allows users to browse hundreds of recipes and apply various filters, such as health score and diet types. 
+
+If you're looking to explore new and exciting flavors, FlavorFusion is the perfect application for you. With its user-friendly interface and robust search functionality, you can easily discover recipes that cater to your unique dietary needs and preferences.
+
+To check out the live version of FlavorFusion, visit [https://flavorfusion.onrender.com](https://flavorfusion.onrender.com). We hope you enjoy using this application as much as we enjoyed creating it!
+
 
 
 ![fflanding](https://user-images.githubusercontent.com/95254477/230817827-de315f03-b0c9-4391-aba1-179a75987e4c.PNG)
