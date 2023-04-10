@@ -10,7 +10,7 @@ const Header = () => {
 
   const homeRedirect = () => {
     history.push('/flavorfusion')
-    window.location.reload()
+    // window.location.reload()
     window.scroll({
       top: 0,
       left: 0,
