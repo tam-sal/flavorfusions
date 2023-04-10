@@ -17,7 +17,7 @@ Welcome to the FlavorFusion repository, a full-stack application designed using 
 
 If you're looking to explore new and exciting flavors, FlavorFusion is the perfect application for you. With its user-friendly interface and robust search functionality, you can easily discover recipes that cater to your unique dietary needs and preferences.
 
-To check out the live version of FlavorFusion, visit <a href="https://flavorfusion.onrender.com/" target="_blank" rel="noopener">Visit FlavorFusion!</a>. We hope you enjoy using this application as much as we enjoyed creating it!
+To check out the live version of FlavorFusion, visit <a href="https://flavorfusion.onrender.com/" target="_blank" rel="noopener">FlavorFusion!</a>. We hope you enjoy using this application as much as we enjoyed creating it!
 
 ## Table of Contents
 
