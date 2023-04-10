@@ -16,7 +16,7 @@ const FormC = () => {
   const { diets } = useSelector(state => state)
   let [selected, setSelected] = useState([])
   const apiURL = process.env.REACT_APP_APIURL
-  console.log(diets)
+
 
 
   const initialFormState = {
