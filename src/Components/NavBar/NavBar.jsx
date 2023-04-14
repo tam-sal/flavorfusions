@@ -2,9 +2,11 @@ import { NavLink } from "react-router-dom"
 import styles from './NavBar.module.css'
 import { getRecipes } from '../../Redux/actions/creators'
 import { useDispatch } from 'react-redux'
+import { useHistroy } from 'react-router-dom'
 const NavBar = () => {
 
   const dispatch = useDispatch()
+  const history = useHistroy()
   const homeRedirect = () => {
     history.push('/flavorfusion')
     dispatch(getRecipes())
