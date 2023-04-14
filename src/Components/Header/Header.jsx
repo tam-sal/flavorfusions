@@ -7,7 +7,6 @@ import { useDispatch } from 'react-redux'
 
 const Header = () => {
 
-  const history = useHistory()
   const dispatch = useDispatch()
 
   const homeRedirect = () => {
