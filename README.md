@@ -48,7 +48,7 @@ This project was built using the following technologies:
 - Filter recipes by maximum and minimum health score for each recipe
 - Search for a specific recipe by name
 - View extended details about each recipe, details include a summary of each and steps to prepare it
-- Create your own custom recipe using the 'Creae' section
+- Create your own custom recipe using the 'Create' section
 
 ## License
 
