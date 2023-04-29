@@ -3,6 +3,7 @@ import styles from './Header.module.css'
 import { NavBar, Search } from '../'
 import { getRecipes } from '../../Redux/actions/creators'
 import { useDispatch } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -22,8 +23,9 @@ const Header = () => {
     <>
       <div className={styles.headerContainer}>
         <div className={styles.headerItems}>
-          <img src={logo} alt="logo" className={styles.logo} onClick={homeRedirect} />
-          <span className={styles.brand} onClick={homeRedirect}>FLAVORFUSION</span>
+          <Link exact to='/flavorfusion'>
+            <img src={logo} alt="logo" className={styles.logo} onClick={homeRedirect} />
+            <span className={styles.brand} onClick={homeRedirect}>FLAVORFUSION</span></Link>
         </div>
         <NavBar />
         <Search />
