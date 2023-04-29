@@ -23,7 +23,7 @@ const Header = () => {
     <>
       <div className={styles.headerContainer}>
         <div className={styles.headerItems}>
-          <Link exact to='/flavorfusion'>
+          <Link to='/flavorfusion'>
             <img src={logo} alt="logo" className={styles.logo} onClick={homeRedirect} />
             <span className={styles.brand} onClick={homeRedirect}>FLAVORFUSION</span></Link>
         </div>
