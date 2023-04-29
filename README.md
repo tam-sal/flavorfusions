@@ -34,7 +34,7 @@ This project was built using the following technologies:
 - [JavaScript ES6](https://www.ecma-international.org/ecma-262/6.0/)
 - [React](https://reactjs.org/) (v18.0.0)
 - [Redux](https://redux.js.org/) (v4.0.5)
-- [Readux-Thunk](https://github.com/reduxjs/redux-thunk)
+- [Redux-Thunk](https://github.com/reduxjs/redux-thunk)
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start) (v5.3.0)
 - [Node.js](https://nodejs.org/) (v16.13.0)
 - [Express](https://expressjs.com/) (v4.17.1)
