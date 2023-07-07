@@ -21,6 +21,8 @@ If you're looking to explore new and exciting flavors, FlavorFusion is the perfe
 
 To check out the live version of FlavorFusion, visit <a href="https://flavorfusion.onrender.com/" target="_blank" rel="noopener">FlavorFusion!</a>. We hope you enjoy using this application as much as we enjoyed creating it!
 
+Click <a href="https://github.com/tam-sal/flavorfusion-api" target="_blank" rel="noopener">here</a> to access backend repository.
+
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
